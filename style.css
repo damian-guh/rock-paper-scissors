@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    height: 15vh;
+    width: 100vw;
+    background-color: #fff;
+    color: #24272e;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 15vh;
+}
+
+main {
+    height: 85vh;
+    width: 100vw;
+    background-color: #24272e;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.far {
+    font-size: 10rem;
+    flex-grow: 3;
+    cursor: pointer;
+}
+
+.confirm {
+    color: #fff;
+    background-color: #24272e;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+    flex-basis: 100%;
+}
