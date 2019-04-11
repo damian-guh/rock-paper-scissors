@@ -38,6 +38,11 @@ main {
     flex-grow: 3;
     cursor: pointer;
 
+
+}
+
+.far:hover {
+    color: #ccdb6b;
 }
 
 .confirm {
@@ -48,4 +53,9 @@ main {
     font-size: 2rem;
     cursor: pointer;
     flex-basis: 100%;
+    text-transform: uppercase;
+}
+
+.confirm:hover {
+    color: #ccdb6b;
 }
