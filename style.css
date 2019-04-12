@@ -9,6 +9,10 @@ html {
     font-size: 10px;
 }
 
+body {
+    overflow: hidden;
+}
+
 header {
     height: 15vh;
     width: 100vw;
@@ -33,7 +37,9 @@ main {
 
 }
 
-.far {
+.fa-hand-rock,
+.fa-hand-paper,
+.fa-hand-scissors {
     font-size: 10rem;
     flex-grow: 3;
     cursor: pointer;
@@ -41,7 +47,9 @@ main {
 
 }
 
-.far:hover {
+.fa-hand-rock:hover,
+.fa-hand-paper:hover,
+.fa-hand-scissors:hover {
     color: #ccdb6b;
 }
 
@@ -58,4 +66,9 @@ main {
 
 .confirm:hover {
     color: #ccdb6b;
+}
+
+.score {
+    font-size: 5rem;
+    flex-basis: 100%;
 }
