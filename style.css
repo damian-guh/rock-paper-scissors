@@ -37,9 +37,7 @@ main {
 
 }
 
-.fa-hand-rock,
-.fa-hand-paper,
-.fa-hand-scissors {
+.items {
     font-size: 10rem;
     flex-grow: 3;
     cursor: pointer;
@@ -47,9 +45,7 @@ main {
 
 }
 
-.fa-hand-rock:hover,
-.fa-hand-paper:hover,
-.fa-hand-scissors:hover {
+.items:hover {
     color: #ccdb6b;
 }
 
@@ -71,4 +67,9 @@ main {
 .score {
     font-size: 5rem;
     flex-basis: 100%;
+}
+
+h1 {
+    flex-basis: 100%;
+    font-size: 3rem;
 }
