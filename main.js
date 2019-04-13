@@ -17,6 +17,11 @@ const handSelection = (event) => {
     event.target.style.transform = "scale(1.25)";
     event.target.style.color = "#ccdb6b";
 }
+const endGame = () => {
+    document.querySelector(`[data-option="${game.playerChoice}"]`).style.transform = "";
+    document.querySelector(`[data-option="${game.playerChoice}"]`).style.color = "";
+    game.playerChoice = "";
+}
 const checkResult = (player, ai) => {
 
     if (player === ai) {
@@ -36,6 +41,7 @@ const checkResult = (player, ai) => {
         document.querySelector("h1").textContent = "Loss";
     }
     document.querySelector(".score").innerHTML = `<i class="far fa-user"></i> ${score.wins} : ${score.losses} <i class="fas fa-desktop"></i>`;
+    endGame();
 }
 
 const startGame = () => {
